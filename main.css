@@ -1,5 +1,6 @@
 :root{
     --max-width: 1200px;
+    --opauge-white: rgba(255,255,255, .87);
 }
 
 body{
@@ -20,4 +21,49 @@ body{
 }
 .nav-item{
  padding: 0px 20px;
+}
+.jumbotron-fluid{
+    height: 60vh;
+    background: var(--gray-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jumbotron h1{
+   /* color: var(--opauge-white);*/
+   font-weight: 600;
+   font-size: 102px;
+   padding-bottom: 40px;
+}
+.jumbotron p{
+    color: rgba(255,255,255, .76);
+}
+.my-max-width-container{
+ max-width: var(--max-width);
+ margin: 0px auto;
+ padding: 40px 0px;
+}
+.img-placeholder{
+ background: var(--opauge-white);
+ min-height: 300px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: var(--gray-dark);
+ font-size: 20px;
+ box-shadow: inset 0px 0px 29px rgba(0,0,0,.5);
+}
+
+.knockout-text{
+    text-align: center;
+    background:url("img/knockout-text-background.jpg") center;
+    background-size:contain;
+    margin:auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    font-weight: 800;
+}
+.navbar-brand .knockout-text{
+    font-size: 42px;
 }

@@ -1,6 +1,6 @@
 <div class="navbar-container container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Logo</a>
+    <a class="navbar-brand" href="#"><p class="knockout-text">Logo</p></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
