@@ -44,6 +44,8 @@ body{
  padding: 40px 0px;
 }
 .img-placeholder{
+ padding: 20px;
+ margin: 20px;
  background: var(--opauge-white);
  min-height: 300px;
  display: flex;
@@ -66,4 +68,15 @@ body{
 }
 .navbar-brand .knockout-text{
     font-size: 42px;
+}
+
+.callout-text{
+    background: var(--gray-dark);
+    color: var(--opauge-white);
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 22px rgba(0,0,0,.6);
 }
