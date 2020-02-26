@@ -26,6 +26,34 @@ include 'header.php'
     
             </div>
         <div>
+
+        <div class="container-fluid my-max-width-container">
+            <div class="row">
+
+  <?php          
+  //Ususally wouldn't do this but im adding it here to demo a loop
+  $example = ["Example 1" => "Crytocurrency bespoke decentralized. In a smart home. Now digital designs id anywhere atoms. Now strategy startups documents designs. Venture crypto adopters niche. ", 
+              "Example 2" => "Companies privacy build at activists data. Video algorithm system ultra-private policies engineering. Users takedowns. ",
+              "Example 3" => " Ultra-private on internet. Ultra-private funding apps, Video algorithm system ultra-private policies engineering. Users takedowns. "];
+?>
+<?php
+foreach ($example as $heading => $text):
+?>
+            <div class="col triptic-col">
+                <div class="img-placeholder ">
+                    <p class="knockout-text"><?=$heading?></p>
+                </div>
+                <div class="triptic-text">
+                    <p><?=$text?></p>
+                </div>
+            </div>
+
+<?php
+endforeach;
+?>
+            </div>
+        </div>
+
     </div>        
 </body>
 </html>

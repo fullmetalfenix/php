@@ -80,3 +80,25 @@ body{
     align-items: center;
     box-shadow: 0px 0px 22px rgba(0,0,0,.6);
 }
+.triptic-col{
+ background: var(--gray-dark);
+ padding: 0px;
+ margin: 20px;
+}
+
+.triptic-col:first-of-type{
+    margin-left:0px;
+}
+.triptic-col:last-of-type{
+    margin-right: 0px;
+}
+
+.triptic-col .img-placeholder{
+    margin: 0px;
+    padding: 0px;
+}
+.triptic-col .triptic-text p{
+    color: var(--opauge-white);
+    padding: 40px 20px;
+    text-align: center;
+}
