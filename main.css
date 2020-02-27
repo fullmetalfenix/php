@@ -5,10 +5,10 @@
 
 body{
     background: var(--red);
+    font-family: "Roboto";
+    width: 100%;
 }
 .row{
- margin-left: 0px !important;
- margin-right: 0px !important;
  margin-top: 40px;
  margin-bottom: 40px;
 }
@@ -51,7 +51,6 @@ body{
 }
 .img-placeholder{
  padding: 20px;
- margin-right: 20px;
  background: var(--opauge-white);
  min-height: 300px;
  display: flex;
@@ -79,24 +78,29 @@ body{
 .callout-text{
     background: var(--gray-dark);
     color: var(--opauge-white);
-    padding: 20px;
-    margin-left: 20px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 22px rgba(0,0,0,.6);
+    height: 100%;
 }
 .triptic-col{
  background: var(--gray-dark);
  padding: 0px;
- margin: 20px;
+ border-radius: 0px 0px 20px 20px;
+ overflow: hidden;
 }
 
 .triptic-col:first-of-type{
     margin-left:0px;
+    border-radius: 0px 20px 0px 20px;
+    overflow: hidden;
 }
 .triptic-col:last-of-type{
     margin-right: 0px;
+    border-radius: 20px 0px 20px 0px;
+    overflow: hidden;
 }
 
 .triptic-col .img-placeholder{
@@ -108,6 +112,9 @@ body{
     padding: 40px 20px;
     text-align: center;
     margin-bottom: 0px !important;
+}
+.triptic-text{
+    min-height: 175px;
 }
 
 .carousel-item{
@@ -154,3 +161,13 @@ div#carouselExampleFade::before{
     right:40px;
     background: transparent;
 }
+
+footer{
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--gray-dark);
+    font-size: 23px;
+}
+

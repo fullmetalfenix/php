@@ -17,11 +17,15 @@ include 'header.php'
 
         <div class="container-fluid my-max-width-container">
             <div class="row">
-                <div class="col img-placeholder ">
+                <div class="col-md-6 ">
+                    <div class="img-placeholder ">
                     <p class="knockout-text">Placeholder.</p>
+                    </div>
                 </div>
-                <div class="col callout-text align-middle">
+                <div class="col-md-6  align-middle">
+                    <div class="callout-text">
                     <p>Crytocurrency bespoke decentralized. In a smart home. Companies privacy build at activists data. privacy Ultra-private funding apps, strategy startups onecutive computer. In startups developers bot precision anywhere entrepreneurs. Visionary fab bespoke strong in cloud. Despite policies ability bespoke strong deal cryptocurrency. Now forecast security edit. Services circuit company read, at labs smartphone deal direct. Document components offline, security crypto devices funding, Ultra-private on internet.</p>
+                </div>
                 </div>
     
             </div>
@@ -39,13 +43,15 @@ include 'header.php'
 <?php
 foreach ($example as $heading => $text):
 ?>
-            <div class="col triptic-col">
+            <div class="col-md-4">
+            <div  class="triptic-col">
                 <div class="img-placeholder ">
                     <p class="knockout-text"><?=$heading?></p>
                 </div>
                 <div class="triptic-text">
                     <p><?=$text?></p>
                 </div>
+            </div>
             </div>
 
 <?php
@@ -80,6 +86,9 @@ endforeach;
 
 </div>
 
-    </div>        
+    </div>      
+</div>
+    <?php include 'footer.php' ?>
+
 </body>
 </html>
