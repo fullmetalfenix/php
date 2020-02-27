@@ -6,6 +6,12 @@
 body{
     background: var(--red);
 }
+.row{
+ margin-left: 0px !important;
+ margin-right: 0px !important;
+ margin-top: 40px;
+ margin-bottom: 40px;
+}
 .container-fluid{
     width: 100%;
     height: 100%;
@@ -45,7 +51,7 @@ body{
 }
 .img-placeholder{
  padding: 20px;
- margin: 20px;
+ margin-right: 20px;
  background: var(--opauge-white);
  min-height: 300px;
  display: flex;
@@ -74,7 +80,7 @@ body{
     background: var(--gray-dark);
     color: var(--opauge-white);
     padding: 20px;
-    margin: 20px;
+    margin-left: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,4 +107,49 @@ body{
     color: var(--opauge-white);
     padding: 40px 20px;
     text-align: center;
+}
+
+.carousel-item{
+    min-height: 400px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center; 
+}
+.carousel-item:nth-child(1){
+    background:var(--cyan);
+}
+.carousel-item:nth-child(2){
+    background: var(--green);
+}
+
+.carousel-item:nth-child(3){
+    background: var(--purple);
+}
+.carousel-item .knockout-text{
+    font-size: 10vw;
+}
+
+div#carouselExampleFade::after{
+    content: "";
+    box-shadow: 14px 10px 15px black;
+    width: 50%;
+    height: 5px;
+    position: absolute;
+    transform: rotate(-2deg);
+    bottom: 10px;
+    left: 20px;
+    z-index: -1111111;
+    background: transparent;
+}
+
+div#carouselExampleFade::before{
+    content: "";
+    box-shadow: 14px 10px 15px black;
+    width: 50%;
+    height: 5px;
+    position: absolute;
+    transform: rotate(2deg);
+    bottom: 10px;
+    right:40px;
+    background: transparent;
 }
