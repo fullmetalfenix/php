@@ -107,6 +107,7 @@ body{
     color: var(--opauge-white);
     padding: 40px 20px;
     text-align: center;
+    margin-bottom: 0px !important;
 }
 
 .carousel-item{
