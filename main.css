@@ -183,6 +183,65 @@ footer{
     animation-iteration-count: infinite;
 }
 
+.about-page{
+    background: var(--gray-dark);
+}
+.subpage-content-container{
+    background: var(--gray-dark);
+}
+.about-page h1, .contact-page h1{
+    min-height: 200px;
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.subpage-content-container p{
+    background: var(--gray-dark);
+    height: 400px;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: var(--opauge-white);
+}
+
+.about-p-container, .contact-form{
+    padding: 30px;
+    background: var(--red);
+}
+
+.contact-form form{
+    background: var(--gray-dark);
+    height: 400px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 0px auto;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: var(--opauge-white);
+}
+
+.contact-page form label{
+    width: 200px;
+    height: 50px; 
+    background: gray;
+    border-radius: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
 @keyframes visit-glow {
     0%{    box-shadow: inset 0px 0px 40px var(--opauge-white);}
     50%{    box-shadow: inset 0px 0px 60px var(--opauge-white);}
