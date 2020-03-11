@@ -20,9 +20,13 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
         <form method="post" action="" id="contact-form">
             <label for="name" >Name:</label>
             <input type="text" name="name">
+            <label for="phone" >Phone:</label>
+            <input type="phone" name="phone">
+            <label for="email" >Email:</label>
+            <input type="email" name="email">
             <label for="message" >Message:</label>
             <textarea name="message" id="message" cols="30" rows="10">Whats your message?</textarea>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" id="submit">
         </form>
         </div>
 
