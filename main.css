@@ -183,16 +183,50 @@ footer{
     animation-iteration-count: infinite;
 }
 
+.about-page{
+    background: var(--gray-dark);
+}
 .subpage-content-container{
     background: var(--gray-dark);
 }
+.about-page h1, .contact-page h1, .thankyou-page h1{
+    min-height: 200px;
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.subpage-content-container p{
+    background: var(--gray-dark);
+    height: 400px;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: var(--opauge-white);
+}
 
-#contact-form{
-    margin: 80px auto;
+.about-p-container, .contact-form{
+    padding: 30px;
+    background: var(--red);
+}
+
+.contact-form form{
+    background: var(--gray-dark);
     max-width: 800px;
     display: flex;
     flex-direction: column;
-    color: var(--opauge-white)
+    align-items: baseline;
+    margin: 0px auto;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: var(--opauge-white);
 }
 
 
@@ -208,7 +242,10 @@ footer{
     width: 100%;
     padding: 10px 10px;
     border-radius: 20px;
+    border: none;
 }
+
+
 
 #submit{
     background: var(--green);
@@ -220,6 +257,10 @@ footer{
     box-shadow: 0px 2px var(--opauge-white);
     padding: 15px;
     border-radius: 40px;
+}
+
+.thanks{
+    min-height: 70vh !important;
 }
 
 @keyframes visit-glow {
