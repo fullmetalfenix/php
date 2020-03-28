@@ -178,9 +178,14 @@ footer{
     font-size: 72px;
     box-shadow: inset 0px 0px 20px var(--opauge-white);
     display: flex;
+    height: 100%;
     animation-name: visit-glow;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+
+.map-container{
+    overflow: hidden;
 }
 
 .about-page{

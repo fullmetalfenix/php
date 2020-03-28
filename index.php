@@ -89,10 +89,12 @@ endforeach;
     </div>
     
     
-<div class="container">
+<div class="container-fluid my-max-width-container">
     <div class="row">
-        <div class="col-md-6 visit">
+        <div class="col-md-6">
+         <div class="visit">
             <p class="knockout-text">Visit <br> Us.</p>
+         </div>
         </div>
         <div class="col-md-6">
         <div class="map-container">
