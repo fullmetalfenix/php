@@ -17,7 +17,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
     <div class="subpage-content-container">
     <h1 class="knockout-text">Contact Us</h1>
     <div class="contact-form">
-        <form method="post" action="" id="contact-form">
+        <form method="post" action="thankyou.php" id="contact-form">
             <label for="name" >Name:</label>
             <input type="text" name="name">
             <label for="phone" >Phone:</label>
@@ -27,6 +27,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
             <label for="message" >Message:</label>
             <textarea name="message" id="message" cols="30" rows="10">Whats your message?</textarea>
             <input type="submit" value="Submit" id="submit">
+
         </form>
         </div>
 
