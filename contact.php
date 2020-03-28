@@ -26,7 +26,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
             <input type="email" name="email">
             <label for="message" >Message:</label>
             <textarea name="message" id="message" cols="30" rows="10">Whats your message?</textarea>
-            <input type="submit" value="Submit" id="submit  ">
+            <input type="submit" value="Submit" id="submit">
         </form>
         </div>
 
