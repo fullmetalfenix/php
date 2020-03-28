@@ -10,7 +10,14 @@ include 'header.php';
             <h1 class="knockout-text">Thanks!</h1>
             <div class="about-p-container thanks border-bottom rounded">
             <p >
-                <?php echo 'Thanks for getting in touch with us ' . $_POST["name"] . ". Someone from our team will contact you at " . $_POST["email"] . " shortly. (Not Realy, this is a demo)" ?>
+            
+                <?php 
+                if(count($_POST) == 0 || $_POST["name"] == ""){
+                    header("location:contact.php");
+                }else if(isset($_POST["name"]) && isset($_POST["email"])){
+                  echo 'Thanks for getting in touch with us ' . $_POST["name"] . ". Someone from our team will contact you at " . $_POST["email"] . " shortly. (Not Realy, this is a demo)"; 
+                }    
+                ?>
                 
             </p>
             </div>
